@@ -1,0 +1,24 @@
+<mat-card class="card-container">
+  <mat-card-header>
+    <div mat-card-avatar class="card-header-image" [ngStyle]="{'background-image': 'url(' + dataSource.image + ')'}"></div>
+    <mat-card-title>
+      <div class="row container">
+        <span class="name">
+          <b>{{dataSource.name}}</b>
+        </span>
+        <div class="shape shape2">{{dataSource.role}}</div>
+        <li class="age-bullet"></li>
+        <p class="age">{{dataSource.lastUpdated}}</p>
+      </div>
+      <p class="content">
+        {{dataSource.text}}
+      </p>
+      <mat-card-actions class="actions">
+        <button mat-button class="button">REPLY</button>
+        <button mat-button class="button">{{dataSource.replies.length}} REPLIES</button>
+        <button mat-button class="button"><i class="fas fa-chevron-up fa-lg"></i><span> {{dataSource.upount}}</span></button>
+        <button mat-button class="button"><i class="fas fa-chevron-down fa-lg"></i><span> {{dataSource.downCount}}</span></button>
+      </mat-card-actions>
+    </mat-card-title>
+  </mat-card-header>
+</mat-card>

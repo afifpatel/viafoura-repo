@@ -1,0 +1,80 @@
+.card-container {
+  background: none;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-top: black;
+  border-bottom: black;
+  width:50%;
+}
+
+.card-container:hover .actions {
+  color:darkgray;
+}
+
+.container {
+  display: flex;
+  height: 40px;
+}
+
+.card-header-image {
+  /* background-image: url('../../../assets/img/Linkeddp.png'); */
+  background-size: cover;
+  height: 60px;
+  width:60px;
+}
+
+.shape {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  font-size: medium;
+  padding-top: 5px;
+  background-color: #3A3534;
+  border-radius: 80px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  margin-left: 5px;
+}
+
+.shape2 {
+  border-radius: 30px;
+}
+
+.name {
+  padding-top: 3px;
+}
+
+.age-bullet {
+  padding-top: 5px;
+  text-align: center;
+  color: gray;
+  font-size: large;
+  width: 12px;
+}
+
+.age {
+  margin-top: 0px;
+  padding-top: 5px;
+  text-align: center;
+  color: gray;
+  font-size: large;
+}
+
+.content {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+.actions {
+  margin-left: 0px;
+  color: #DEDDDD;
+}
+
+.button {
+  font-size: medium;
+  padding-left: 0px;
+}
